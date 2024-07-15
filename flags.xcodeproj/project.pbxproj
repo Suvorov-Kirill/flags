@@ -11,6 +11,7 @@
 		1A6AFEE92AF67E1700BCF60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AFEE82AF67E1700BCF60A /* ContentView.swift */; };
 		1A6AFEEB2AF67E1800BCF60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6AFEEA2AF67E1800BCF60A /* Assets.xcassets */; };
 		1A6AFEEE2AF67E1800BCF60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6AFEED2AF67E1800BCF60A /* Preview Assets.xcassets */; };
+		1ADAF9142B3E01EB0066975C /* FlagsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAF9132B3E01EB0066975C /* FlagsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A6AFEE82AF67E1700BCF60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A6AFEEA2AF67E1800BCF60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6AFEED2AF67E1800BCF60A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ADAF9132B3E01EB0066975C /* FlagsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1A6AFEE62AF67E1700BCF60A /* flagsApp.swift */,
 				1A6AFEE82AF67E1700BCF60A /* ContentView.swift */,
+				1ADAF9132B3E01EB0066975C /* FlagsData.swift */,
 				1A6AFEEA2AF67E1800BCF60A /* Assets.xcassets */,
 				1A6AFEEC2AF67E1800BCF60A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADAF9142B3E01EB0066975C /* FlagsData.swift in Sources */,
 				1A6AFEE92AF67E1700BCF60A /* ContentView.swift in Sources */,
 				1A6AFEE72AF67E1700BCF60A /* flagsApp.swift in Sources */,
 			);
@@ -278,8 +282,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +312,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
